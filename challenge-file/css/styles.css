@@ -1,0 +1,13 @@
+@import "reset.css";
+
+/*component*/
+@import "components/status-bar.css";
+@import "components/navigation-bar.css";
+@import "components/top-bar.css";
+
+/*screens*/
+@import "screen/login.css";
+@import "screen/friends.css";
+
+
+
