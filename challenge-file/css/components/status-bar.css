@@ -1,0 +1,30 @@
+.statusbar {
+    position: fixed;
+    top:0;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #f9f9fa;
+}
+.statusBar__column {
+    width: 50%;
+    padding: 12px 10px;
+    color:rgba(0, 0, 0, 0.9);
+}
+
+.statusBar__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.statusBar__column:last-child i {
+    margin: 0px 3px;
+}
+.statusBar__column:last-child span {
+    margin-left: 3px;
+}

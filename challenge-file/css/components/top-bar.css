@@ -1,0 +1,22 @@
+.topbar {
+    position: fixed;
+    background-color: #f9f9fa;
+    top: 40px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons i {
+    margin: 0px 12px;
+}

@@ -1,0 +1,93 @@
+main {
+    height: 220vh;
+    overflow-y: auto;
+}
+.tab {
+    border-bottom: 1px solid rgba(210, 105, 30, 0.3);
+    width: 90%;
+    height: 80px;
+    margin: 0px 15px;
+    margin-bottom: 10px;
+}
+
+.myprofile {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.myprofile img {
+    height: 60px;
+    width: 60px;
+    border-radius: 25px;
+    margin-right: 15px;
+    border: 1px solid chocolate;
+}
+
+.myprofile span {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.myprofile p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: 5px;
+}
+
+.tab__description {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.friends__profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.friends__profile i:first-child {
+    padding: 18px;
+    border-radius: 18px;
+    background-color: indianred;
+    margin: 5px 20px 5px 0px;
+}
+
+.friends__profile p {
+    width: 80%;
+    font-weight: 600;
+}
+
+.friends__profile i:last-child,
+.friends__profile span {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.friend__list{
+    width: 90%;
+    padding: 0px 15px;
+}
+
+
+.friendsprofile {
+    display:flex;
+    align-items: center;
+    margin: 15px 0px; 
+}
+
+
+.myprofile__photo {
+    width: 46px;
+    height: 46px;
+    border-radius: 18px;
+    border: 1px solid chocolate;
+    margin-right: 15px;
+}
+
+.comment {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: 5px;
+}
