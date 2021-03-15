@@ -8,6 +8,14 @@
 /*screens*/
 @import "screen/login.css";
 @import "screen/friends.css";
+@import "screen/chats.css";
+@import "screen/more.css";
+@import "screen/setting.css";
+@import "screen/chattingpage.css";
 
-
+main {
+    height: 150vh;
+    width: 100%;
+    overflow-y: auto;
+}
 

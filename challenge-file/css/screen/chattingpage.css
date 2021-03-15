@@ -1,0 +1,9 @@
+.icons__chattingpage {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.icons__chattingpage i {
+    margin: 0px 12px;
+}
