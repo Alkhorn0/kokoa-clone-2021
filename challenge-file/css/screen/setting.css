@@ -17,10 +17,6 @@
     padding: 0px 20px;
 }
 
-.setting__menu__container:first-child {
-    margin-top: 100px;
-}
-
 .menulist {
     display: flex;
     align-items: center;

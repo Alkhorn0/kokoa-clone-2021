@@ -10,7 +10,6 @@
 .myprofile {
     display: flex;
     align-items: center;
-    margin-top: 100px;
 }
 
 .myprofile img {
@@ -64,7 +63,6 @@
 }
 
 .friend__list{
-    width: 90%;
     padding: 0px 15px;
 }
 

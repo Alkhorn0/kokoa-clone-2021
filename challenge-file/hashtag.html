@@ -23,16 +23,104 @@
         </div>
     </div>
 
-    <div class="topbar">
-        <span class="page__title">채팅</span>
+    <div class="topbar topbar__hashtag__page">
+        <div class="topbar__scroll">
+            <h2 class="page__title page__title__selected">#코로나19</h2>
+            <h2 class="page__title">톡업데이트</h2>
+            <h2 class="page__title">뉴스</h2>
+            <h2 class="page__title">코코아TV</h2>
+            <h2 class="page__title">스포츠</h2>
+            <h2 class="page__title">연예</h2>
+        </div>
         <div class="icons">
-            <i class="fas fa-search"></i>
-            <i class="far fa-comments"></i>
-            <i class="fas fa-music"></i>
-            <i class="fas fa-cog"></i>
+            <i class="fas fa-exchange-alt"></i>
         </div>
     </div>
-    <main>
+    <main class="hashtag__main">
+        <div class="corona__title">
+            <div class="talkIconContainer">
+                <i class="fas fa-comment"></i>
+            </div>
+            <div class="emergencylevel">
+                <span>위기경보</span>
+                <span class="emergencylevel__level">심각</span>
+            </div>
+            <h1>코로나바이러스감염증-19</h1>
+            <div class="qrcheckin">
+                <i class="fas fa-qrcode"></i>
+                <span>QR체크인</span>
+            </div>
+            <h6>03.14 00:00 기준</h6>
+        </div>
+
+        <div class="corona__patients">
+            <div class="todayInfoContainer">
+                <div class="patientsInfo defined">
+                    <h5 class="patients__status">확진환자</h5>
+                    <h3>95635</h3>
+                    <div class="change__ratio">
+                        <i class="fas fa-caret-up"></i>
+                        <h5>459</h5>
+                    </div>
+                </div>
+                <div class="patientsInfo not">
+                    <h5 class="patients__status">격리해제</h5>
+                    <h3>87408</h3>
+                    <div class="change__ratio">
+                        <i class="fas fa-caret-up"></i>
+                        <h5>783</h5>
+                    </div>
+                </div>
+                <div class="patientsInfo dead">
+                    <h5 class="patients__status">사망자</h5>
+                    <h3>1669</h3>
+                    <div class="change__ratio">
+                        <i class="fas fa-caret-up"></i>
+                        <h5>2</h5>
+                    </div>
+                </div>
+                <div class="patientsInfo question">
+                    <h5 class="patients__status">검사진행</h5>
+                    <h3>69843</h3>
+                    <div class="change__ratio">
+                        <i class="fas fa-caret-up"></i>
+                        <h5>1969</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="seoulcorona">
+                <h4>서울</h4>
+                <div>・</div>
+                <div class="status__section">
+                    <span class="patients__status">확진</span>
+                    <span>29,949</span>
+                    <i class="fas fa-caret-up"></i>
+                    <span>112</span>
+                </div>
+                <div class="status__section">
+                    <span class="patients__status">완치</span>
+                    <span>27,448</span>
+                    <i class="fas fa-caret-up"></i>
+                    <span>251</span>
+                </div>
+                <div class="status__section">
+                    <span class="patients__status">사망</span>
+                    <span>404</span>
+                    <i class="fas fa-caret-up"></i>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="corona19nowOrvaccine">
+            <div class="corona19now">
+                <span>코로나19 현황</span>
+            </div>
+            <div class="vaccine">
+                <span>백신 정보</span>
+            </div>
+        </div>
 
     </main>
 
@@ -46,7 +134,7 @@
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification badge">1</span>
-                    <i class="fas fa-comment fa-lg"></i>
+                    <i class="far fa-comment fa-lg"></i>
                 </a>
             </li>
             <li class="nav__btn">
@@ -63,9 +151,9 @@
         </ul>
     </nav>
 
-    <!--<div id="no-mobile">
-        <span>Please use your cellphone</span>
-    </div>-->
+    <div id="no-mobile">
+        <span>휴대폰 사이즈로 사용해주세요!!</span>
+    </div>
 
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>

@@ -1,0 +1,210 @@
+.topbar__hashtag__page{
+    align-items: flex-start;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.topbar__scroll {
+    overflow-x: scroll;
+    width: 85%;
+    height: 50px;
+    display: flex;
+    white-space: nowrap;
+    margin-left: 15px;
+}
+
+.topbar__scroll::-webkit-scrollbar {
+    display:none;
+}
+
+.page__title__selected {
+    border-bottom: 2px solid black;
+}
+
+.topbar__scroll h2:not(.page__title__selected) {
+    color:rgba(200, 200, 200, 0.5);
+}
+
+.page__title {
+    margin-right: 10px;
+}
+
+.hashtag__main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.corona__title {
+    width: 100%;
+    height: 25%;
+    background-color: rgba(0, 0, 109, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    color: white;
+}
+
+.talkIconContainer{
+    width: 100%;
+    text-align: end;
+    padding-right: 40px;
+    
+}
+
+.talkIconContainer i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: chocolate;
+    color: black;
+}
+
+.emergencylevel {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.emergencylevel__level {
+    padding: 2px 3px;
+    background-color: tomato;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 8px 0px;
+}
+
+.qrcheckin {
+    margin: 8px 0px;
+    padding: 10px 18px;
+    font-size: 20px;
+    background-color: rgba(153, 153, 221, 0.5);
+    border-radius: 18px;
+}
+
+h6 {
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(153, 153, 221, 0.5);
+}
+
+.corona__patients {
+    width: 98%;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.todayInfoContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 95px;
+    background-color: white;
+    margin-top: -15px;
+    border-radius: 5px;
+    padding: 20px;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.patientsInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+.patients__status {
+    color: rgba(119, 119, 119, 0.8);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.patientsInfo:nth-child(2),
+.patientsInfo:nth-child(3) {
+    border-left: 1px solid rgba(200, 200, 200, 0.5);
+    border-right: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.patientsInfo:nth-child(2) {
+    border-right: none;
+}
+
+.patientsInfo h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.defined h3{
+    color: tomato;
+}
+
+.not h3{
+    color: steelblue;
+}
+
+.dead h3{
+    color: black;
+}
+
+.question h3{
+    color:rgba(120, 120, 120, 0.5);
+}
+
+.patientsInfo h5,
+.patientsInfo i {
+    display: inline;
+}
+
+.seoulcorona {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(200, 200, 200, 0.2);
+    width: 90%;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.seoulcorona h4 {
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.status__section:last-child {
+    padding-right: 40px;
+}
+
+.corona19nowOrvaccine {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.corona19nowOrvaccine div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width:250px;
+    border:1px solid rgba(200, 200, 200, 0.5);
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.corona19now {
+    background-color: rgba(0, 0, 109, 0.7);
+    color: white;
+}
+
+.vaccine {
+    background-color: #F4F4F4;
+}

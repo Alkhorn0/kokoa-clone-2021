@@ -1,0 +1,12 @@
+@keyframes cog-rotation {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }   
+}
+
+.fa-cog:hover {
+    animation: cog-rotation 1s linear infinite;
+}
